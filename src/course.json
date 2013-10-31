@@ -539,34 +539,274 @@ Perseids = {
                 },
                 {  'id': 'week10',
                     'label': 'Week 10 Nov. 4-6: The Sea and the Ocean',
-                    'status': 'pending',
-                    'lectures': [ 
+                    'status': 'published',
+                    'lectures': [ { 'label': "Lecture 1",
+                         'description': ["The Sea in Greek myths: Underworld and Divination. Glaucus, Proteus, Thetis, Oceanus"]
+                       },
+                       { 'label': "Lecture 2",
+                         'description': ["Jason and the Black Sea"]
+                       },
                     ],
                     'assignments': [
+                        { 
+                             'label': "Chapter 7",
+                             'display_items': [],
+                             'level': 0,
+                             'group': 1
+                         },
+                         { 
+                             'label': "Chapter 24",
+                             'display_items': [],
+                             'level': 0,
+                             'group': 1
+                         },
+                        { 
+                             'label': "Ovid, <i>Metamorphoses</i> Book 7",
+                             'display_items': [
+                                {'uri' : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:7",
+                                 'ctype' : 'cts-text'
+                                }
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                         {
+                             'label': "Homer, <i> Odyssey </i> 4.349-570",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002:4.349-4.570',
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-eng1:4.349-4.570'],
+                             'display_items': [
+                                {'uri' :  "urn:cts:greekLit:tlg0012.tlg002.perseus-eng1:4.349-4.570",
+                                 'ctype': "cts-text"}
+                              ],
+                             'level': 1,
+                             'group': 2
+                         },
+                         {
+                             'label': "<i>Boston 21.1203</i>",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/artifacts/gem/Boston+21.1203'],
+                             'display_items': [
+                                    {'uri' : "https://sosol.perseids.org/artifactproxy/gem/Boston+21.1203",
+                                     'ctype' : 'artifact'
+                                    }                              ],
+                             'level': 2,
+                             'group': 2
+                         },
+                         {
+                             'label': "Boston 00.335",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/artifacts/vase/Boston+00.335'],
+                             'display_items': [
+                                { 'uri': "https://sosol.perseids.org/artifactproxy/vase/Boston+00.335",
+                                  'ctype': 'artifact'
+                                }
+                             ],
+                             'level': 3,
+                             'group': 2
+                         }
                     ]
                 },
                  {  'id': 'week11',
                     'label': 'Week 11 Nov. 11-13: Marriage',
-                    'status': 'pending',
-                    'lectures': [ 
+                    'status': 'published',
+                    'lectures': [ { 'label': "Lecture 1",
+                         'description': ["Myths of Marriage. Danae, Proetids, Atalanta"]
+                       }
                     ],
                     'assignments': [
+                        { 
+                             'label': "Aeschylus, <i>Suppliant Women</i>",
+                             'display_items': [
+                                {'uri' : "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0016",
+                                 'ctype' : 'link',
+                                 'label' : 'Read in Perseus'
+                                }
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                         {
+                             'label': "Homer, <i>Iliad</i> 6.390-6.500",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001:6.390-6.500',
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:6.390-6.466'],
+                             'display_items': [
+                                {'uri' :  "urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:6.390-6.466",
+                                 'ctype': "cts-text"}
+                              ],
+                             'level': 1,
+                             'group': 2
+                         },
+                         {
+                             'label': "<i>Malibu 85.AE.102</i>",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/artifacts/vase/Malibu+85.AE.102'],
+                             'display_items': [
+                                    {'uri' : "https://sosol.perseids.org/artifactproxy/vase/Malibu+85.AE.102",
+                                     'ctype' : 'artifact'
+                                    }                              ],
+                             'level': 2,
+                             'group': 2
+                         },
+                         {
+                             'label': "Boston 1972.850",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/artifacts/vase/Boston+1972.850'],
+                             'display_items': [
+                                { 'uri': "https://sosol.perseids.org/artifactproxy/vase/Boston+1972.850",
+                                  'ctype': 'artifact'
+                                }
+                             ],
+                             'level': 3,
+                             'group': 2
+                         }
                     ]
                 },
                  {  'id': 'week12',
                     'label': 'Week 12 Nov. 18-20: The Trojan War',
                     'status': 'pending',
                     'lectures': [ 
+                        { 'label': "Lecture 1",
+                         'description': ["The Trojan War"]
+                        }
                     ],
                     'assignments': [
+                        { 
+                             'label': "<b>First Draft of Research Paper Due Nov. 20</b>",
+                             'display_items': [
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                         { 
+                             'label': "Chapter 19",
+                             'display_items': [
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                         { 
+                             'label': "Homer, <i>Iliad</i> Book 1",
+                             'display_items': [
+                                {'uri' : "urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:1",
+                                 'ctype' : 'cts-text'
+                                }
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                          {
+                             'label': "Homer, <i>Iliad</i> 2.290-2.435",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001:2.290-2.435',
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:2.290-2.419'],
+                             'display_items': [
+                                {'uri' :  "urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:2.290-2.419",
+                                 'ctype': "cts-text"}
+                              ],
+                             'level': 1,
+                             'group': 2
+                         },
+                         {
+                             'label': "Euripides, <i>Trojan Women</i> 353-405",
+                             'annotation_targets': 
+                                [''],
+                             'display_items': [
+                                    {'uri' : "",
+                                     'ctype' : 'cts-text'
+                                    }                              ],
+                             'level': 2,
+                             'group': 2
+                         },
+                         {
+                             'label': "Louvre E 635",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/artifacts/vase/Louvre+E+635'],
+                             'display_items': [
+                                { 'uri': "https://sosol.perseids.org/artifactproxy/vase/Louvre+E+635",
+                                  'ctype': 'artifact'
+                                }
+                             ],
+                             'level': 3,
+                             'group': 2
+                         }
                     ]
                 },
                      {  'id': 'week13',
                     'label': 'Week 13 Nov. 25-27: Oedipus',
                     'status': 'pending',
                     'lectures': [ 
+                       { 'label': "Lecture 1",
+                         'description': ["Sophocles’ Oedipus Cycle"]
+                        }
                     ],
                     'assignments': [
+                        { 
+                             'label': "Chapter 17",
+                             'display_items': [
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                         { 
+                             'label': "Sophocles, <i>Oedipus the King</i>",
+                             'display_items': [
+                                {'uri' : "http://www.perseus.tufts.edu/hopper/text?urn:cts:greekLit:tlg0011.tlg004.perseus-eng1",
+                                 'ctype' : 'link',
+                                 'label' : 'Read in Perseus'
+                                }
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                          { 
+                             'label': "Sophocles, <i>Antigone</i>",
+                             'display_items': [
+                                {'uri' : "http://www.perseus.tufts.edu/hopper/text?urn:cts:greekLit:tlg0011.tlg002.perseus-eng1",
+                                 'ctype' : 'link',
+                                 'label' : 'Read in Perseus'
+                                }
+                              ],
+                             'level': 0,
+                             'group': 1
+                         },
+                          {
+                             'label': "Sophocles, <i>Antigone</i> 450-470",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg002:450-470',
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg002.perseus-eng1:441'],
+                             'display_items': [
+                                {'uri' :  "urn:cts:greekLit:tlg0011.tlg002.perseus-eng1:441",
+                                 'ctype': "cts-text"}
+                              ],
+                             'level': 1,
+                             'group': 2
+                         },
+                          {
+                             'label': "Sophocles, <i>Oedipus the King</i> 300-460",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg004:300-460',
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg004.perseus-eng1:'],
+                             'display_items': [
+                                {'uri' :  "urn:cts:greekLit:tlg0011.tlg004.perseus-eng1:",
+                                 'ctype': "cts-text"}
+                              ],
+                             'level': 2,
+                             'group': 2
+                         },
+                          {
+                             'label': "Sophocles, <i>Oedipus at Colonus</i> 1586-1666",
+                             'annotation_targets': 
+                                ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg007:1586-1666',
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg007.perseus-eng1:'],
+                             'display_items': [
+                                {'uri' :  "urn:cts:greekLit:tlg0011.tlg007.perseus-eng1:",
+                                 'ctype': "cts-text"}
+                              ],
+                             'level': 3,
+                             'group': 2
+                         }
                     ]
                 },
                   {  'id': 'week14',
