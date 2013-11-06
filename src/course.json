@@ -435,9 +435,9 @@ Perseids = {
                              'group': 1
                          },
                          {
-                             'label': "<i>Malibu 77.AE.11</i>",
+                             'label': "<i>Munich 3297</i>",
                              'annotation_targets': 
-                                ['http://data.perseus.org/artifacts/vase/Malibu+77.AE.11'],
+                                ['http://data.perseus.org/artifacts/vase/Munich+3297'],
                              'display_items': [
                                     {'uri' : "https://sosol.perseids.org/artifactproxy/vase/Munich+3297",
                                      'ctype' : 'artifact'
