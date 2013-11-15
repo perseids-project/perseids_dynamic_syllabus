@@ -665,7 +665,7 @@ Perseids = {
                 },
                  {  'id': 'week12',
                     'label': 'Week 12 Nov. 18-20: The Trojan War',
-                    'status': 'pending',
+                    'status': 'published',
                     'lectures': [ 
                         { 'label': "Lecture 1",
                          'description': ["The Trojan War"]
@@ -711,10 +711,11 @@ Perseids = {
                          {
                              'label': "Euripides, <i>Trojan Women</i> 353-405",
                              'annotation_targets': 
-                                [''],
+                                ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg011:353-405','http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg011.perseus-eng1:341-386'],
                              'display_items': [
-                                    {'uri' : "",
-                                     'ctype' : 'cts-text'
+                                    {'uri' : "urn:cts:greekLit:tlg0006.tlg011.perseus-eng1:341-386",
+                                     'ctype' : 'cts-text',
+                                     'label' : '(Section spoken by Cassandra)'
                                     }                              ],
                              'level': 2,
                              'group': 2
@@ -735,7 +736,7 @@ Perseids = {
                 },
                      {  'id': 'week13',
                     'label': 'Week 13 Nov. 25-27: Oedipus',
-                    'status': 'pending',
+                    'status': 'published',
                     'lectures': [ 
                        { 'label': "Lecture 1",
                          'description': ["Sophocles’ Oedipus Cycle"]
@@ -787,9 +788,9 @@ Perseids = {
                              'label': "Sophocles, <i>Oedipus the King</i> 300-460",
                              'annotation_targets': 
                                 ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg004:300-460',
-                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg004.perseus-eng1:'],
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg004.perseus-eng1:300-447'],
                              'display_items': [
-                                {'uri' :  "urn:cts:greekLit:tlg0011.tlg004.perseus-eng1:",
+                                {'uri' :  "urn:cts:greekLit:tlg0011.tlg004.perseus-eng1:300-447",
                                  'ctype': "cts-text"}
                               ],
                              'level': 2,
@@ -799,9 +800,9 @@ Perseids = {
                              'label': "Sophocles, <i>Oedipus at Colonus</i> 1586-1666",
                              'annotation_targets': 
                                 ['http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg007:1586-1666',
-                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg007.perseus-eng1:'],
+                                 'http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg007.perseus-eng1:1579-1670'],
                              'display_items': [
-                                {'uri' :  "urn:cts:greekLit:tlg0011.tlg007.perseus-eng1:",
+                                {'uri' :  "urn:cts:greekLit:tlg0011.tlg007.perseus-eng1:1579-1670",
                                  'ctype': "cts-text"}
                               ],
                              'level': 3,

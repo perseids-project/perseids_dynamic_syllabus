@@ -74,6 +74,9 @@ function loadSyllabus(a_index_item) {
         for (var j=0; j < assignment.display_items.length; j++ ) {
             item = assignment.display_items[j];
             if (item.ctype == textElementClass || item.ctype == collectionElementClass) { 
+                if (item.label) {
+                    parent.append('<div class="label">' + item.label + '</div>');
+                }
                 parent.append('<div class="' + item.ctype + '" cite="' + item.uri + '"></div>');
             } else if (item.ctype == 'link') {
                 parent.append('<div class="assignment-link"><a target="_blank" href="' + item.uri + '">' + item.label + '</a></div>');
