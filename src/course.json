@@ -753,7 +753,7 @@ Perseids = {
                          { 
                              'label': "Sophocles, <i>Oedipus the King</i>",
                              'display_items': [
-                                {'uri' : "http://www.perseus.tufts.edu/hopper/text?urn:cts:greekLit:tlg0011.tlg004.perseus-eng1",
+                                {'uri' : "http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0011.tlg004.perseus-eng1",
                                  'ctype' : 'link',
                                  'label' : 'Read in Perseus'
                                 }
@@ -764,7 +764,7 @@ Perseids = {
                           { 
                              'label': "Sophocles, <i>Antigone</i>",
                              'display_items': [
-                                {'uri' : "http://www.perseus.tufts.edu/hopper/text?urn:cts:greekLit:tlg0011.tlg002.perseus-eng1",
+                                {'uri' : "http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0011.tlg002.perseus-eng1",
                                  'ctype' : 'link',
                                  'label' : 'Read in Perseus'
                                 }
