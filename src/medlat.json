@@ -1,0 +1,83 @@
+Perseids = {
+   'syllabus': [
+                {   'id': 'group1',
+                    'label': 'Group 1: Chapter 13 (statum de Bigimis)',
+                    'status': 'published',
+                    'lectures': [ 
+                       { 'label': "Gmail Group Id",
+                         'description': ["perseids.flc1@gmail.com"]
+                       },
+                     ],
+                    'assignments': [
+                        { 
+                             'label': "Chapter 13 (statum de Bigimis)",
+                             'display_items': [
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-lat1:13?collection=pilots",
+                                 'ctype' : 'link',
+                                 'label' : 'Transcribe'
+                                },
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-eng1:13?collection=pilots",
+                                 'ctype' : 'link',
+                                 'label' : 'Translate'
+                                }
+                                ],   
+                             'level': 0,
+                             'group': 1
+                         }
+                    ]
+                 },
+                 {   'id': 'group2',
+                    'label': 'Group 2: Chapter 22 (praerogativa regis)',
+                    'status': 'published',
+                   'lectures': [ 
+                       { 'label': "Gmail Group Id",
+                         'description': ["perseids.flc2@gmail.com"]
+                       },
+                     ],
+                    'assignments': [
+                        { 
+                             'label': "Chapter 22 (praerogativa regis)",
+                             'display_items': [
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-lat1:22?collection=pilots",
+                                 'ctype' : 'link',
+                                 'label' : 'Transcribe'
+                                },
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-eng1:22?collection=pilots&src=SoSOL",
+                                 'ctype' : 'link',
+                                 'label' : 'Translate'
+                                }
+                                ],   
+                             'level': 0,
+                             'group': 1
+                         }
+                    ]
+                 },
+                 {   'id': 'group3',
+                    'label': 'Group 3: Chapter 26 (Statute de Northampton)',
+                    'status': 'published',
+                    'lectures': [ 
+                       { 'label': "Gmail Group Id",
+                         'description': ["perseids.flc3@gmail.com"]
+                       },
+                     ],
+
+                    'assignments': [
+                        { 
+                             'label': "Chapter 26 (Statute de Northampton)",
+                             'display_items': [
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-lat1:26?collection=pilots",
+                                 'ctype' : 'link',
+                                 'label' : 'Transcribe'
+                                },
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-eng1:26?collection=pilots",
+                                 'ctype' : 'link',
+                                 'label' : 'Translate'
+                                }
+                                ],   
+                             'level': 0,
+                             'group': 1
+                         }
+                    ]
+                 }
+               ]
+    };
