@@ -63,12 +63,12 @@ function loadSyllabus(a_index_item) {
         var parent = $('#syllabus .assignments .group' + group + ' .level' + level + ' .content'); 
         if (assignment.annotation_targets != null && assignment.annotation_targets.length > 0) {
             var aUrl = annotationEditorUrl;
-            parent.append('<form target="_blank" method="GET" action="' + aUrl + '"></form>');
+            parent.append('<form id="assignment-form-' + i + '" target="_blank" method="GET" action="' + aUrl + '"></form>');
             //$('form',parent).append('<input type="hidden" name="type" value="Commentary"/>');                 
             for (var k=0; k < assignment.annotation_targets.length; k++) {
-                $('form',parent).append('<input type="hidden" name="init_value[]" value="' + assignment.annotation_targets[k] + '"/>');
+                $('#assignment-form-'+i,parent).append('<input type="hidden" name="init_value[]" value="' + assignment.annotation_targets[k] + '"/>');
              }   
-             $('form',parent).append('<button type="submit">Create/Edit Essay</button>')
+             $('#assignment-form-'+i,parent).append('<button type="submit">Create/Edit Essay</button>')
         }
         parent.append('<p class="label">' + assignment.label + '</p>');
         for (var j=0; j < assignment.display_items.length; j++ ) {

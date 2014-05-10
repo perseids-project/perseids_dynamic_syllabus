@@ -5,7 +5,7 @@ Perseids = {
                     'status': 'published',
                     'lectures': [ 
                        { 'label': "Gmail Group Id",
-                         'description': ["perseids.flc1@gmail.com"]
+                         'description': ['<a href="http://sites.tufts.edu/perseids/projects/epifacs/instructions/group-account-instructions/">perseids.flc1@gmail.com</a>']
                        },
                      ],
                     'assignments': [
@@ -31,7 +31,7 @@ Perseids = {
                     'status': 'published',
                    'lectures': [ 
                        { 'label': "Gmail Group Id",
-                         'description': ["perseids.flc2@gmail.com"]
+                         'description': ['<a href="http://sites.tufts.edu/perseids/projects/epifacs/instructions/group-account-instructions/">perseids.flc2@gmail.com</a>']
                        },
                      ],
                     'assignments': [
@@ -53,23 +53,23 @@ Perseids = {
                     ]
                  },
                  {   'id': 'group3',
-                    'label': 'Group 3: Chapter 26 (Statute de Northampton)',
+                    'label': 'Group 3: Chapter 8',
                     'status': 'published',
                     'lectures': [ 
                        { 'label': "Gmail Group Id",
-                         'description': ["perseids.flc3@gmail.com"]
+                         'description': ['<a href="http://sites.tufts.edu/perseids/projects/epifacs/instructions/group-account-instructions/">perseids.flc3@gmail.com</a>']
                        },
                      ],
 
                     'assignments': [
                         { 
-                             'label': "Chapter 26 (Statute de Northampton)",
+                             'label': "Chapter 8",
                              'display_items': [
-                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-lat1:26?collection=pilots",
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-lat1:8?collection=pilots",
                                  'ctype' : 'link',
                                  'label' : 'Transcribe'
                                 },
-                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-eng1:26?collection=pilots",
+                                {'uri' : "http://sosol.perseids.org/sosol/cts_publications/create_from_linked_urn/urn:cts:pdlmc:cdf.flc.perseus-eng1:8?collection=pilots",
                                  'ctype' : 'link',
                                  'label' : 'Translate'
                                 }
