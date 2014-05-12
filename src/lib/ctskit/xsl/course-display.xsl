@@ -284,7 +284,7 @@ AAA<xsl:apply-templates />B
 	      <strong><xsl:value-of select="@n" /><xsl:text> D. </xsl:text></strong>
 	  </xsl:when>
 	  <xsl:otherwise>
-	      <a href="#note-link{$noteID}"><xsl:value-of select="position()"/></a><xsl:text> </xsl:text>
+	      <a class="note" href="#note-link{$noteID}"><xsl:value-of select="position()"/></a><xsl:text> </xsl:text>
 	  </xsl:otherwise>
       </xsl:choose>
       <xsl:choose>
@@ -681,7 +681,7 @@ AAA<xsl:apply-templates />B
   <xsl:template match="tei:note[@place='inline']">
       <xsl:choose>
 	  <xsl:when test="@rend='ag' or @rend='smyth'">
-	      <p style="font-size: small; margin: 10px 5%;">
+	      <p class="note {@rend}" style="font-size: small; margin: 10px 5%;">
 
 		  <xsl:call-template name="permalink">
 		      <xsl:with-param name="smythp" select="(preceding::tei:milestone[@unit='smythp'])[last()]/@n" />
@@ -714,7 +714,7 @@ AAA<xsl:apply-templates />B
 	      </p>
 	  </xsl:when>
 	  <xsl:otherwise>
-	      <i><xsl:apply-templates /></i>
+	      <span class="note"><xsl:apply-templates /></span>
 	  </xsl:otherwise>
       </xsl:choose>
   </xsl:template>
@@ -752,7 +752,7 @@ AAA<xsl:apply-templates />B
       <xsl:call-template name="footnoteID"/>
     </xsl:variable>
     <xsl:if test="not(@rend) or @rend != 'smyth'">
-	<a id="note-link{$identifier}" href="#note{$identifier}"><sup><xsl:value-of select="count(preceding::tei:note[@place = 'foot' or @place = 'unspecified' or @place = 'text' or not(@place)]) + 1" /></sup></a>
+	<a class="note" id="note-link{$identifier}" href="#note{$identifier}"><sup><xsl:value-of select="count(preceding::tei:note[@place = 'foot' or @place = 'unspecified' or @place = 'text' or not(@place)]) + 1" /></sup></a>
     </xsl:if>
   </xsl:template>
 

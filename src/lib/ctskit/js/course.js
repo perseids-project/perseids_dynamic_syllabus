@@ -48,6 +48,8 @@ function loadSyllabus(a_index_item) {
     $('#index').hide();
     $("#syllabus-header").show();
     $('#syllabus .content').html('');
+    $('#syllabus-header .toc ol').html('');
+    $('#syllabus-header .toc').hide();
     var syllabus = Perseids.syllabus[a_index_item];
     $("#syllabus-header .label").html(syllabus.label);
     $("#syllabus-header .permalink a").attr("href",'#module-' + a_index_item);
@@ -70,7 +72,9 @@ function loadSyllabus(a_index_item) {
              }   
              $('#assignment-form-'+i,parent).append('<button type="submit">Create/Edit Essay</button>')
         }
-        parent.append('<p class="label">' + assignment.label + '</p>');
+        $("#syllabus-header .toc#toc-" + group + '-' + level + ' ol').append('<li><a href="#assignment-' + i + '">' + assignment.label + '</a></li>');
+        $("#syllabus-header .toc#toc-" + group + '-' + level).show();
+        parent.append('<p id="assignment-' + i + '" class="label">' + assignment.label + '</p>');
         for (var j=0; j < assignment.display_items.length; j++ ) {
             item = assignment.display_items[j];
             if (item.ctype == textElementClass || item.ctype == collectionElementClass) { 

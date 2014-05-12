@@ -147,3 +147,16 @@ table#course_info tr th {
     font-style:italic;
     display: block;
 }
+
+.toc {
+    clear:both;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.toclabel {
+    font-weight: bold;    
+}
+span.note, a.note {
+    font-style: italic;
+}
