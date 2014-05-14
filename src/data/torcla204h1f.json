@@ -4,13 +4,6 @@ Perseids =
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
-         "label" : "Myths: definitions, sources, and methods 5/12/2014",
-         "id" : "module1"
-      },
-      {
-         "lectures" : [],
-         "status" : "published",
          "assignments" : [
             {
                "display_items" : [
@@ -148,8 +141,8 @@ Perseids =
                   }
                ],
                "annotation_targets" : [
-                  "http://perseids.org/citations/urn:cts:greekLit:tlg0033.tlg001.perseus-eng1:9.35-9.50",
-                  "http://perseids.org/citations/urn:cts:greekLit:tlg0033.tlg001:9.35-9.50"
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0033.tlg001.perseus-eng1:9.35-9.50",
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0033.tlg001:9.35-9.50"
                ],
                "group" : "2",
                "level" : "1",
@@ -163,8 +156,8 @@ Perseids =
                   }
                ],
                "annotation_targets" : [
-                  "http://perseids.org/citations/urn:cts:latinLit:phi0959.phi006.perseus-eng1:1.253-1.415",
-                  "http://perseids.org/citations/urn:cts:latinLit:phi0959.phi006:1.253-1.415"
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0959.phi006.perseus-eng1:1.253-1.415",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0959.phi006:1.253-1.415"
                ],
                "group" : "2",
                "level" : "1",
@@ -178,8 +171,8 @@ Perseids =
                   }
                ],
                "annotation_targets" : [
-                  "http://perseids.org/citations/urn:cts:greekLit:tlg0527.tlg001.perseus-eng1:6-8",
-                  "http://perseids.org/citations/urn:cts:greekLit:tlg0527.tlg001:6-8"
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0527.tlg001.perseus-eng1:6-8",
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0527.tlg001:6-8"
                ],
                "group" : "2",
                "level" : "1",
@@ -192,14 +185,85 @@ Perseids =
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0020.tlg001.perseus-eng1:35-103"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Hesiod, <i>Theogony</i> 35–103"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0012.tlg002.perseus-eng1:8.15-8.110"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Homer, <i>Odyssey</i> 8.15–110 [Demodocus]"
+            }
+         ],
          "label" : "Myth in oral and literary traditions 5/21/2014",
          "id" : "module4"
       },
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:24.596-24.642"
+                  }
+               ],
+               "annotation_targets" : [
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:24.596-24.642",
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001:24.596-24.642"
+               ],
+               "group" : "2",
+               "level" : "1",
+               "label" : "Homer, <i>Iliad</i> 24.596–642 [Niobe]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0011.tlg002.perseus-eng1:801-882"
+                  }
+               ],
+               "annotation_targets" : [
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg002.perseus-eng1:801-882",
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg002:801-882"
+               ],
+               "group" : "2",
+               "level" : "1",
+               "label" : "Sophocles, <i>Antigone</i> 801–882 [Niobe]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:6.146-6.312"
+                  }
+               ],
+               "annotation_targets" : [
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0959.phi006.perseus-eng1:6.146-6.312",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0959.phi006:6.146-6.312"
+               ],
+               "group" : "2",
+               "level" : "1",
+               "label" : "Ovid, <i>Metamorphoses</i> 6.146–312 [Niobe]"
+            }
+         ],
          "label" : "Myth and genre 5/23/2014",
          "id" : "module5"
       },
