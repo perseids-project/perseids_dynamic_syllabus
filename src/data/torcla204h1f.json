@@ -294,7 +294,11 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:1.746-2.343"
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:1.746"
+                  },
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:2.1-2.343"
                   }
                ],
                "annotation_targets" : [],
