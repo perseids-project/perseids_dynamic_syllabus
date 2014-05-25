@@ -4,6 +4,13 @@ Perseids =
       {
          "lectures" : [],
          "status" : "published",
+         "assignments" : [],
+         "label" : "Myths: definitions, sources, and methods 5/12/2014",
+         "id" : "module1"
+      },
+      {
+         "lectures" : [],
+         "status" : "published",
          "assignments" : [
             {
                "display_items" : [
@@ -270,42 +277,483 @@ Perseids =
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg031.perseus-eng1:1-15"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "<i>Homeric Hymn 31 to Helios</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:1.746-2.343"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 1.746–2.343 [Phaethon]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0012.tlg002.perseus-eng1:4.351-4.470"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Homer, <i>Odyssey</i> 4.351–470 [Proteus]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg019.perseus-eng1:1-45"
+                  }
+               ],
+               "annotation_targets" : [
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0013.tlg019.perseus-eng1",
+                  "http://data.perseus.org/citations/urn:cts:greekLit:tlg0013.tlg019"
+               ],
+               "group" : "2",
+               "level" : "1",
+               "label" : "<i>Homeric Hymn 19 to Pan</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:3.337-3.508"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 3.337–508 [Echo and Narcissus]"
+            }
+         ],
          "label" : "Myth and the natural world 5/26/2014",
          "id" : "module6"
       },
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0059.tlg011.perseus-eng1:189c-193e"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Plato, <i>Symposium</i> 189c–193 [Aristophanes’ speech]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0550.phi001.perseus-eng1:1.1-1.49"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Lucretius, <i>De Rerum Natura</i> 1.1–49 [hymn to Venus]"
+            }
+         ],
          "label" : "Myth and philosophy 5/28/2014",
          "id" : "module7"
       },
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0020.tlg001.perseus-eng1:565-616"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Hesiod, <i>Theogony</i> 565–616 [Pandora]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0020.tlg001.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Hesiod, <i>Theogony</i> 885–900, 929a–929t [Athena]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg028.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "<i>Homeric Hymn 28 to Athena</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg005.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "<i>Homeric Hymn 5 to Aphrodite</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 10.243–297 [Pygmalion and Galatea]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 3.138–250 [Diana and Actaeon]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0011.tlg002.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Sophocles, <i>Antigone</i> 376–525 [speech before Creon]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 1.452–566 [Apollo and Daphne]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0006.tlg010.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Euripides, <i>Ion</i> 1–81, 859–922 [Apollo and Creusa]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0548.tlg001.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Apollodorus, 1.9.16, 1.9.23–28 [Medea]"
+            }
+         ],
          "label" : "Women in myth 6/2/2014",
          "id" : "module8"
       },
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg003.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "<i>Homeric Hymn 3 to Pythian Apollo</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0085.tlg007.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Aeschylus, <i>Eumenides</i> 1–33 [Delphic oracle]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0007.tlg001.opp-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Plutarch, <i>Theseus</i> 1.2–2.2, 24.1–25.3, 34.1–36.2"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 2.833–end [Jupiter and Europa]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0914.phi001.opp-eng17"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "2",
+               "level" : "1",
+               "label" : "Livy, <i>Ab Urbe Condita</i> 1.1–4, 1.6.3–1.7.3 [Aeneas, Romulus]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng2"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "2",
+               "level" : "1",
+               "label" : "Vergil, <i>Aeneid</i> 1.1–33, 6.756–892 [Aeneas]"
+            }
+         ],
          "label" : "Founding myths 6/4/2014",
          "id" : "module9"
       },
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg002.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "<i>Homeric Hymn 2 to Demeter</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0472.phi001.perseus-eng"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Catullus <i>Carmen</i> 63 [Cybele]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 5.341–571 [Ceres and Proserpina]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg003.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "<i>Homeric Hymn 3 to Delian Apollo</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0690.phi002.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Vergil, <i>Georgics</i> 4.453–527 [Orpheus]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 10.1–85 [Orpheus]"
+            }
+         ],
          "label" : "Religion and myth 6/6/2014",
          "id" : "module10"
       },
       {
          "lectures" : [],
          "status" : "published",
-         "assignments" : [],
+         "assignments" : [
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0020.tlg001.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Hesiod, <i>Theogony</i> 507–569 [Prometheus]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0085.tlg003.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Aeschylus, <i>Prometheus Bound</i> 1–113, 196–243 [binding scene]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg007.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "<i>Homeric Hymn 7 to Dionysus</i>"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:greekLit:tlg0006.tlg017.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Euripides, <i>Bacchae</i> 1–63, 1043–1152 [Dionysus tells his story]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 3.509–end [Bacchus and Pentheus]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 15.622–744 [Aesculapius in Rome]"
+            },
+            {
+               "display_items" : [
+                  {
+                     "ctype" : "cts-text",
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1"
+                  }
+               ],
+               "annotation_targets" : [],
+               "group" : "1",
+               "level" : "0",
+               "label" : "Ovid, <i>Metamorphoses</i> 14.581–608 [deification of Aeneas]"
+            }
+         ],
          "label" : "Gods in myth: defining divinity 6/9/2014",
          "id" : "module11"
       },
