@@ -745,7 +745,7 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:greekLit:tlg0013.tlg007.perseus-eng1"
+                     "uri" : "urn:cts:greekLit:tlg0013.tlg007.perseus-eng1:1-32"
                   }
                ],
                "annotation_targets" : [
@@ -852,15 +852,15 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng2:4.238-4.392"
+                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng1:4.238-4.392"
                   },
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng2:4.630-4.674"
+                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng1:4.630-4.674"
                   },
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng2:6.426-6.476"
+                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng1:6.426-6.476"
                   }
                ],
                "annotation_targets" : [],
@@ -1008,11 +1008,11 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng2:3.410-3.440"
+                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng1:3.410-3.440"
                   },
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng2:3.675-3.691"
+                     "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng1:3.675-3.691"
                   }
                ],
                "annotation_targets" : [],
