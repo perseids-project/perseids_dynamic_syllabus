@@ -389,7 +389,7 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:greekLit:tlg0020.tlg001.perseus-eng1:565-616"
+                     "uri" : "urn:cts:greekLit:tlg0020.tlg001.perseus-eng1:545-616"
                   }
                ],
                "annotation_targets" : [],
@@ -604,7 +604,12 @@ Perseids =
                      "uri" : "urn:cts:latinLit:phi0914.phi001.perseus-eng3:1.6.3-1.7.3"
                   }
                ],
-               "annotation_targets" : [],
+               "annotation_targets" : [
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0914.phi001.perseus-eng3:1.1-1.4",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0914.phi001.perseus-eng3:1.6.3-1.7.3",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0914.phi001.perseus-eng3:1.1-1.4",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0914.phi001.perseus-eng3:1.6.3-1.7.3"
+               ],
                "group" : "2",
                "level" : "1",
                "label" : "Livy, <i>Ab Urbe Condita</i> 1.1–4, 1.6.3–1.7.3 [Aeneas, Romulus]"
@@ -620,7 +625,12 @@ Perseids =
                      "uri" : "urn:cts:latinLit:phi0690.phi003.perseus-eng1:6.756-6.892"
                   }
                ],
-               "annotation_targets" : [],
+               "annotation_targets" : [
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0690.phi003.perseus-eng1:1.1-1.33",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0690.phi003.perseus-eng1:6.756-6.892",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0690.phi003:1.1-1.33",
+                  "http://data.perseus.org/citations/urn:cts:latinLit:phi0690.phi003:6.756-6.892"
+               ],
                "group" : "2",
                "level" : "1",
                "label" : "Vergil, <i>Aeneid</i> 1.1–33, 6.756–892 [Aeneas]"
