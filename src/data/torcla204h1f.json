@@ -659,7 +659,7 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0472.phi001.perseus-eng:63"
+                     "uri" : "urn:cts:latinLit:phi0472.phi001.perseus-eng1:63"
                   }
                ],
                "annotation_targets" : [],
@@ -798,8 +798,8 @@ Perseids =
                   "http://data.perseus.org/citations/urn:cts:latinLit:phi0959.phi006.perseus-eng1:3.509-3.690",
                   "http://data.perseus.org/citations/urn:cts:latinLit:phi0959.phi006:3.509-3.690"
                ],
-               "group" : "1",
-               "level" : "0",
+               "group" : "2",
+               "level" : "1",
                "label" : "Ovid, <i>Metamorphoses</i> 3.509–end [Bacchus and Pentheus]"
             },
             {
@@ -906,7 +906,7 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:greekLit:tlg0012.tlg002.perseus-eng1:11.20-11.50"
+                     "uri" : "urn:cts:greekLit:tlg0012.tlg002.perseus-eng1:11.1-11.50"
                   },
                   {
                      "ctype" : "cts-text",
@@ -1070,7 +1070,7 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:8.264-8.444"
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:8.260-8.444"
                   }
                ],
                "annotation_targets" : [],
@@ -1102,11 +1102,11 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:greekLit:tlg0007.tlg092.perseus-eng2:1"
+                     "uri" : "urn:cts:greekLit:tlg0007.tlg092.perseus-eng1:1"
                   },
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:greekLit:tlg0007.tlg092.perseus-eng2:17"
+                     "uri" : "urn:cts:greekLit:tlg0007.tlg092.perseus-eng1:17"
                   }
                ],
                "annotation_targets" : [],
