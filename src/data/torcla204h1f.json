@@ -1058,25 +1058,25 @@ Perseids =
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:9.538-9.549"
+                     "uri" : "urn:cts:greekLit:tlg0012.tlg001.perseus-eng1:9.492-9.610"
                   }
                ],
                "annotation_targets" : [],
                "group" : "1",
                "level" : "0",
-               "label" : "Homer, <i>Iliad</i> 9.538–549 [Calydonian Boar]"
+               "label" : "Homer, <i>Iliad</i> 9.492–610 [Calydonian Boar]"
             },
             {
                "display_items" : [
                   {
                      "ctype" : "cts-text",
-                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:8.260-8.444"
+                     "uri" : "urn:cts:latinLit:phi0959.phi006.perseus-eng1:8.260-8.546"
                   }
                ],
                "annotation_targets" : [],
                "group" : "1",
                "level" : "0",
-               "label" : "Ovid, <i>Metamorphoses</i> 8.264–444 [Calydonian Boar]"
+               "label" : "Ovid, <i>Metamorphoses</i> 8.260–546 [Calydonian Boar]"
             },
             {
                "display_items" : [
